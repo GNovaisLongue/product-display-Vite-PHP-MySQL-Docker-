@@ -1,0 +1,7 @@
+.new-product-type__select label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.new-product-type__select select {
+  size: 1rem;
+}

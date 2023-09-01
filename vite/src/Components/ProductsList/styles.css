@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+b {
+  font-size: 38px;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.button_group {
+  text-align: right;
+}
+
+.button_group button {
+  border-radius: 10%;
+  padding: 10px;
+  margin: 5px;
+}
+.button_group button:hover {
+  background-color: rgba(206, 206, 206, 0.404);
+}
+
+#delete-product-btn {
+  background-color: red;
+}
+#delete-product-btn:hover {
+  background-color: rgba(255, 0, 0, 0.562);
+}
+
+.products-list_fallback {
+  color: black;
+  text-align: center;
+}
+
+.delete-checkbox {
+  float: left;
+}
+
+.div-products {
+  padding: 0;
+}
+
+.div-product {
+  flex-basis: 100%;
+  float: left;
+  width: 20%;
+  padding: 5px;
+  margin: 1rem;
+  outline: black solid;
+  text-align: center;
+}
+
+.div-products::after {
+  content: "";
+  clear: both;
+  display: table;
+}
