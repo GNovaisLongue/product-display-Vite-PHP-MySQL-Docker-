@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+b {
+  font-size: 38px;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.button_group {
+  text-align: right;
+}
+
+.button_group button {
+  border-radius: 10%;
+  padding: 10px;
+  margin: 5px;
+}
+.button_group button:hover {
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.new-product__form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-product__input label {
+  margin-right: 5px;
+  font-weight: bold;
+  display: inline-block;
+  width: 12%;
+  text-align: right;
+}
+
+.new-product__input input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
