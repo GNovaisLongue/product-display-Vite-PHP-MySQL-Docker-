@@ -40,9 +40,9 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`sku`, `name`, `price`, `product_type`, `product_attribute`) VALUES
-('SKUTest000', 'NameTest000', '25', 'DVD', '200'),
-('SKUTest001', 'NameTest001', '25', 'Book', '200'),
-('SKUTest002', 'NameTest002', '25', 'Furniture', '200x200x200');
+('SKUTestSKU000', 'NameTest000', '25', 'DVD', '200'),
+('SKUTestSKU001', 'NameTest001', '25', 'Book', '200'),
+('SKUTestSKU002', 'NameTest002', '25', 'Furniture', '200x200x200');
 
 --
 -- Indexes for dumped tables
